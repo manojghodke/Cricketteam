@@ -1,0 +1,29 @@
+<html>
+<head>
+   <title>login form</title>
+   <script>
+     function validation(){
+         var name =document.getElementById("username").value
+         if(name=="" || name==null){
+             alert("usename can't emty")
+             return false;
+         }
+   
+
+         var pass = document.getElementById("password").value
+         if(pass=="" || pass==null){
+            alert("password can't emty")
+            return false;
+         }
+         return true;
+    }
+  </script>
+</head>
+<body>
+  <form onsubmit="return validation()" action="p.html">
+     username<input type="text" id="username" placeholder="Enter username"><br><br>
+     password<input type="password" id="password" placeholder="Enter password"><br><br>
+     <input type="submit" value="submit">
+
+</body>
+</html>

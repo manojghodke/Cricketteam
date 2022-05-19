@@ -1,0 +1,60 @@
+body{
+    background-color: yellowgreen;
+}
+
+.batmen__all{
+    margin-top: 70px;
+    margin-left: 60px;
+}
+.cb-col{
+    display: inline;
+    box-sizing: border-box;
+    float: left;
+    min-height: 1px;
+}
+.cb-col-50{
+    width: 50%;
+}
+.about__img{
+    width: 75px;
+    border-radius: .5rem;
+    justify-self: center;
+    align-self: center;
+}
+.cb-cols{
+    display: inline;
+    box-sizing: border-box;
+    float: left;
+    min-height: 1px;
+    
+}
+.cb-col-100{
+    width: 100%;
+}
+.cb-lst-itm-sm{
+    padding: 10px 0 5px;
+}
+.cb-col-40{
+    width: 40%;
+}
+.cb-col-60{
+    width: 60%;
+}
+.cb-font-16{
+    font-size: 16px;
+}
+.cb-sr-rev-label{
+    margin-top: 30px;
+}
+.cb-col-100{
+    width: 100%;
+}
+.cb-plyr-rank{
+    padding: 5px 25px 5px 0;
+}
+.cb-col-25{
+    width: 25%;
+}
+.text-right {
+    text-align: right;
+}
